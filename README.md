@@ -33,3 +33,11 @@ This project analyzes GDP data for various countries from 1960 to 2023. It inclu
 1. Clone the repository:
    ```sh
    git clone https://github.com/your-username/repo-name.git
+
+##VISULAZATIONS :
+![image](https://github.com/user-attachments/assets/bcaaa4a0-2903-4faa-a3d9-793392f7bedc)
+![image](https://github.com/user-attachments/assets/e23ca881-f235-4f4f-9cc2-e9268cc75306)
+![image](https://github.com/user-attachments/assets/317a13c3-099c-46f5-889b-e3256c80bade)
+
+
+
