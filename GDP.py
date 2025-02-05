@@ -30,7 +30,7 @@ plt.ylabel("Country")
 plt.title("Top 10 Economies in 2023")
 plt.xscale("log")
 plt.show()
-
+plt.savefig("Top 10 Economies")
 # GDP Trend for Selected Countries
 selected_countries = ["United States", "China", "India", "Germany", "United Kingdom"]
 df_selected = df_melted[df_melted["Country Name"].isin(selected_countries)]
@@ -42,7 +42,7 @@ plt.ylabel("GDP (US$)")
 plt.title("GDP Growth Trends (1960-2023)")
 plt.legend(title="Country")
 plt.show()
-
+plt.savefig("GDP_TREND")
 # Calculate GDP Growth Rate
 df_melted.sort_values(by=["Country Name", "Year"], inplace=True)
 df_melted["GDP Growth Rate"] = df_melted.groupby("Country Name")["GDP"].pct_change() * 100
@@ -59,3 +59,4 @@ plt.title("GDP Growth Rate of Top 5 Economies")
 plt.axhline(y=0, color='black', linestyle='--')
 plt.legend(title="Country")
 plt.show()
+plt.savefig("GDP Growth rate")
